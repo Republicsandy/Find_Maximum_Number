@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_Max_Num_Using_Generics", "Find_Max_Num_Using_Generics.csproj", "{0EEBAA4C-A01A-4518-A0F0-71BBD785B990}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Find_MaxNum_Using_Generics", "Find_MaxNum_Using_Generics", "{AC570EB7-5859-4CD5-B77F-D8508C5B761B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Find_MaxTest1", "Find_MaxTest1", "{39B36D24-A262-4804-AC2F-53FB01C65993}"
+	ProjectSection(SolutionItems) = preProject
+		Find_Max_Num_Test.cs = Find_Max_Num_Test.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EEBAA4C-A01A-4518-A0F0-71BBD785B990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEBAA4C-A01A-4518-A0F0-71BBD785B990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEBAA4C-A01A-4518-A0F0-71BBD785B990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEBAA4C-A01A-4518-A0F0-71BBD785B990}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0EEBAA4C-A01A-4518-A0F0-71BBD785B990} = {AC570EB7-5859-4CD5-B77F-D8508C5B761B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {936D01DF-392D-4CB8-BC5B-DD9DB162C501}
+	EndGlobalSection
+EndGlobal
