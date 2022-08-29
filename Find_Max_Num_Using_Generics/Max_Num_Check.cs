@@ -45,5 +45,24 @@ namespace Find_Max_Num_Using_Generics
             }
             throw new Exception("All three values are same!");
         }
+        public static string MaximumStringValue(string firstValue, string secondValue, string thirdValue)
+        {
+            //CompareTo is used to compare two strings 
+            if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0)
+            {
+                return firstValue;
+            }
+
+            if (secondValue.CompareTo(firstValue) > 0 && secondValue.CompareTo(thirdValue) > 0)
+            {
+                return secondValue;
+            }
+
+            if (thirdValue.CompareTo(firstValue) > 0 && thirdValue.CompareTo(secondValue) > 0)
+            {
+                return thirdValue;
+            }
+            throw new Exception("All three values are same!");
+        }
     }
 }
